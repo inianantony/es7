@@ -4,8 +4,28 @@
   "description": "features of es7",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "npm run open",
+    "open": "concurrently \"http-server -o -a localhost -p 3001\" \"open http://localhost:3001\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inianantony/es7.git"
+  },
+  "keywords": [
+    "es6"
+  ],
   "author": "Antony",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inianantony/es7/issues"
+  },
+  "homepage": "https://github.com/inianantony/es7#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "http-server": "^0.12.1"
+  }
 }
