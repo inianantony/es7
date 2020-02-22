@@ -2,7 +2,7 @@
 features of es7
 
 ## Create a Node js project
-1. create a new directory `mkdir es6`
+1. create a new directory `mkdir es7`
 2. init the folder for npm package `npm init`
 3. Fill up the necessary details for the `package.json` file
 4. install npm Express `npm install express`
