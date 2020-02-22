@@ -1,4 +1,4 @@
-# es6
+# es7
 features of es7
 
 ## Create a Node js project
